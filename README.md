@@ -20,5 +20,7 @@ Follow these steps to run the project locally on your machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/quickshare.git](https://github.com/your-username/quickshare.git)
+git clone https://github.com/linxfaizan/quick_file_share
 cd quickshare
+
+```
