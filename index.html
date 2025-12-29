@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Share | Glassy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background-blobs"></div>
+
+    <div class="glass-card">
+        <header>
+            <h1>⚡ Quick Share</h1>
+            <p>Secure & Fast File Transfer</p>
+        </header>
+
+        <div class="section upload-section">
+            <h3>📤 Upload File</h3>
+            <div class="drop-zone" id="drop-zone">
+                <div class="icon">📂</div>
+                <p>Drag & Drop file here<br>or <span class="highlight">click to browse</span></p>
+                <input type="file" id="file-input" hidden>
+            </div>
+            <div id="upload-status" class="status-message"></div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section download-section">
+            <h3>📥 Receive File</h3>
+            <div class="input-group">
+                <input type="text" id="share-code-input" placeholder="Enter 4-digit code">
+                <button id="get-btn">Download</button>
+            </div>
+            <div id="download-status" class="status-message"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
